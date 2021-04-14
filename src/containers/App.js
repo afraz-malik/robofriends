@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
-import CardMaker from './CardMaker';
-import SearchBox from './SearchBox';
-import Scroll from './Scroll';
+import CardMaker from '../components/CardMaker';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 
-import '../styles/app.css';
+import './app.css';
 
 class App extends Component{
 	constructor(){
